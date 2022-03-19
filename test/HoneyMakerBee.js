@@ -8,7 +8,9 @@ describe('HoneyMakerBee class functionality', function() {
 
   /*  Overwrite methods from superclass  */
 
+
   it('should have an age property that is set to `10`', function() {
+
     expect(honeyBee.age).to.equal(10);
   });
 
